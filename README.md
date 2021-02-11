@@ -1,7 +1,7 @@
 # Zou-farm-landing-page
 
 ## About
-### This webpage is for an imaginary agricultural innovation called Zou Farms. 
+### This webpage is for an imaginary agricultural innovation called Zou Farms. They specialized in the cultivation of plants 
 
 ## Technologies
 ### This website is been built using HTML, CSS and JavaScript.
