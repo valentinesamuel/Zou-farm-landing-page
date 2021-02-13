@@ -5,8 +5,8 @@ a.appendChild(node);
 link.appendChild(a);
 var element = document.querySelector("#menu");
 
-function toggleMobileMenu(){
+function toggleMobileMenu() {
       element.appendChild(link);
-document.querySelector('#menu').classList.toggle('active')
-document.querySelector('.mobile-bar').classList.toggle('active')
+      document.querySelector('#menu').classList.toggle('active')
+      document.querySelector('.mobile-bar').classList.toggle('active')
 }

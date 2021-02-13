@@ -128,13 +128,13 @@ nav {
 header {
   display: flex;
   justify-content: left;
-  margin-left: 220px;
+  margin-left: 110px;
   .left-part {
     margin-top: 100px;
 
     h2 {
-      font-size: 4rem;
-      max-width: 700px;
+      font-size: 2rem;
+      max-width: 500px;
       font-weight: 700;
       @media (max-width: 480px) {
         font-size: 3rem;
@@ -142,9 +142,9 @@ header {
       }
     }
     p {
-      font-size: 2rem;
-      max-width: 700px;
-      line-height: 2.5rem;
+      font-size: 1rem;
+      max-width: 400px;
+      line-height: 1.5rem;
       @media (max-width: 480px) {
         font-size: 1rem;
         line-height: 1.6rem;
@@ -177,7 +177,7 @@ header {
     right: 0px;
     top: 0px;
     img {
-      height: 900px;
+      height: 700px;
     }
     @media (max-width: 480px) {
       display: none;
