@@ -7,4 +7,4 @@
 ### This website is been built using HTML, CSS and JavaScript.
 
 ## Client
-##This website is an imaginary website implemented from a figma design mockup
+### This website is a fictional website implemented from a figma design mockup for a fictional firm
