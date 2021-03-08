@@ -18,9 +18,35 @@ nav {
   display: -ms-flexbox;
   display: flex;
   position: relative;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   margin-top: 50px;
+  padding-right: 110px;
+  margin-left: 110px;
+}
+
+@media (max-width: 1024px) {
+  nav {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-left: 50px;
+    padding-right: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  nav {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-left: 0px;
+    padding-right: 0px;
+  }
+  nav img {
+    margin-left: 30px;
+  }
 }
 
 @media (max-width: 480px) {
@@ -28,9 +54,10 @@ nav {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
+    padding-right: 30px;
   }
   nav img {
-    margin-left: 22px;
+    margin-left: 30px;
   }
 }
 
@@ -132,6 +159,7 @@ nav ul {
 
 nav li {
   display: inline-block;
+  margin-right: 20px;
 }
 
 nav li a {
@@ -167,6 +195,12 @@ nav .nav-signup:hover {
   }
 }
 
+@media (max-width: 768px) {
+  nav .nav-signup {
+    display: none;
+  }
+}
+
 header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -175,6 +209,9 @@ header {
       -ms-flex-pack: left;
           justify-content: left;
   margin-left: 110px;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
 }
 
 header .left-part {
@@ -182,28 +219,57 @@ header .left-part {
 }
 
 header .left-part h2 {
-  font-size: 2rem;
-  max-width: 500px;
+  font-size: 4rem;
+  max-width: 700px;
   font-weight: 700;
+}
+
+@media (max-width: 1024px) {
+  header .left-part h2 {
+    font-size: 4rem;
+    max-width: 500px;
+  }
+}
+
+@media (max-width: 768px) {
+  header .left-part h2 {
+    font-size: 3rem;
+    max-width: 380px;
+  }
 }
 
 @media (max-width: 480px) {
   header .left-part h2 {
-    font-size: 3rem;
     font-size: 2.5rem;
   }
 }
 
 header .left-part p {
-  font-size: 1rem;
-  max-width: 400px;
-  line-height: 1.5rem;
+  font-size: 1.6rem;
+  max-width: 700px;
+  line-height: 3rem;
+}
+
+@media (max-width: 1024px) {
+  header .left-part p {
+    font-size: 2rem;
+    line-height: 3rem;
+    max-width: 600px;
+  }
 }
 
 @media (max-width: 480px) {
   header .left-part p {
     font-size: 1rem;
     line-height: 1.6rem;
+  }
+}
+
+@media (max-width: 768px) {
+  header .left-part p {
+    font-size: 1.5rem;
+    max-width: 380px;
+    line-height: 2.5rem;
   }
 }
 
@@ -226,13 +292,30 @@ header .left-part .cta:hover {
           transform: translateY(5px);
 }
 
+@media (max-width: 1024px) {
+  header .left-part .cta {
+    padding: 18px 45px;
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  header .left-part {
+    display: inline-block;
+    -webkit-box-pack: left;
+        -ms-flex-pack: left;
+            justify-content: left;
+    margin-top: 30px;
+  }
+}
+
 @media (max-width: 480px) {
   header .left-part {
     display: inline-block;
     -webkit-box-pack: left;
         -ms-flex-pack: left;
             justify-content: left;
-    margin: 0 0;
+    margin-top: 20px;
   }
 }
 
@@ -245,21 +328,83 @@ header .main-illustration {
 }
 
 header .main-illustration img {
-  height: 700px;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+}
+
+@media (max-width: 1024px) {
+  header .main-illustration img {
+    height: 700px;
+  }
+}
+
+@media (max-width: 768px) {
+  header .main-illustration img {
+    height: 550px;
+  }
 }
 
 @media (max-width: 480px) {
-  header .main-illustration {
+  header .main-illustration img {
     display: none;
+  }
+}
+
+@media (max-width: 1024px) {
+  header {
+    margin-left: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  header {
+    margin-left: 30px;
   }
 }
 
 @media (max-width: 480px) {
   header {
     margin-left: 20px;
-    -webkit-box-pack: left;
-        -ms-flex-pack: left;
-            justify-content: left;
   }
+}
+
+.plantain {
+  position: absolute;
+  top: 590px;
+}
+
+@media (max-width: 768px) {
+  .plantain {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .plantain {
+    display: none;
+  }
+}
+
+.plantain img {
+  height: 600px;
+}
+
+@media (max-width: 768px) {
+  .plantain img {
+    height: 400px;
+  }
+}
+
+@media (max-width: 480px) {
+  .plantain img {
+    height: 250px;
+  }
+}
+
+.new-opportunities {
+  background-color: rebeccapurple;
+  width: 100%;
+  height: 100%;
 }
 /*# sourceMappingURL=styles.css.map */

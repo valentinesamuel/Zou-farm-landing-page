@@ -14,13 +14,30 @@ nav {
   z-index: 1;
   display: flex;
   position: relative;
-  justify-content: space-around;
+  justify-content: space-between;
   margin-top: 50px;
+  padding-right: 110px;
+  margin-left: 110px;
+
+  @media (max-width: 1024px) {
+    justify-content: space-between;
+    margin-left: 50px;
+    padding-right: 50px;
+  }
+  @media (max-width: 768px) {
+    justify-content: space-between;
+    margin-left: 0px;
+    padding-right: 0px;
+    img {
+      margin-left: 30px;
+    }
+  }
 
   @media (max-width: 480px) {
     justify-content: space-between;
+    padding-right: 30px;
     img {
-      margin-left: 22px;
+      margin-left: 30px;
     }
   }
 
@@ -94,9 +111,10 @@ nav {
       }
     }
   }
+
   li {
     display: inline-block;
-
+    margin-right: 20px;
     a {
       display: inline-block;
       text-decoration: none;
@@ -122,6 +140,9 @@ nav {
     @media (max-width: 480px) {
       display: none;
     }
+    @media (max-width: 768px) {
+      display: none;
+    }
   }
 }
 
@@ -129,27 +150,50 @@ header {
   display: flex;
   justify-content: left;
   margin-left: 110px;
+  height: max-content;
   .left-part {
     margin-top: 100px;
 
     h2 {
-      font-size: 2rem;
-      max-width: 500px;
+      font-size: 4rem;
+      max-width: 700px;
       font-weight: 700;
-      @media (max-width: 480px) {
+
+      @media (max-width: 1024px) {
+        font-size: 4rem;
+        max-width: 500px;
+      }
+
+      @media (max-width: 768px) {
         font-size: 3rem;
+        max-width: 380px;
+      }
+      @media (max-width: 480px) {
         font-size: 2.5rem;
       }
     }
+
     p {
-      font-size: 1rem;
-      max-width: 400px;
-      line-height: 1.5rem;
+      font-size: 1.6rem;
+      max-width: 700px;
+      line-height: 3rem;
+
+      @media (max-width: 1024px) {
+        font-size: 2rem;
+        line-height: 3rem;
+        max-width: 600px;
+      }
       @media (max-width: 480px) {
         font-size: 1rem;
         line-height: 1.6rem;
       }
+      @media (max-width: 768px) {
+        font-size: 1.5rem;
+        max-width: 380px;
+        line-height: 2.5rem;
+      }
     }
+
     .cta {
       margin-top: 40px;
       color: white;
@@ -163,11 +207,21 @@ header {
       &:hover {
         transform: translateY(5px);
       }
+      @media (max-width: 1024px) {
+        padding: 18px 45px;
+        font-size: 20px;
+      }
+    }
+
+    @media (max-width: 768px) {
+      display: inline-block;
+      justify-content: left;
+      margin-top: 30px;
     }
     @media (max-width: 480px) {
       display: inline-block;
       justify-content: left;
-      margin: 0 0;
+      margin-top: 20px;
     }
   }
 
@@ -176,16 +230,55 @@ header {
     position: absolute;
     right: 0px;
     top: 0px;
+
     img {
-      height: 700px;
-    }
-    @media (max-width: 480px) {
-      display: none;
+      height: max-content;
+
+      @media (max-width: 1024px) {
+        height: 700px;
+      }
+      @media (max-width: 768px) {
+        height: 550px;
+      }
+      @media (max-width: 480px) {
+        display: none;
+      }
     }
   }
 
+  @media (max-width: 1024px) {
+    margin-left: 50px;
+  }
+  @media (max-width: 768px) {
+    margin-left: 30px;
+  }
   @media (max-width: 480px) {
     margin-left: 20px;
-    justify-content: left;
   }
 }
+
+.plantain {
+  position: absolute;
+  top: 590px;
+
+  @media (max-width: 768px) {
+  display: none;
+  }
+
+  @media (max-width: 480px) {
+   display: none;
+  }
+
+  img {
+    height: 600px;
+
+    @media (max-width: 768px) {
+      height: 400px;
+    }
+
+    @media (max-width: 480px) {
+      height: 250px;
+    }
+  }
+}
+
