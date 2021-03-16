@@ -1,4 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Chivo:wght@400;700&display=swap");
+html ::-webkit-scrollbar {
+  width: 0;
+  /* Remove scrollbar space */
+  background: transparent;
+  /* Optional: just make scrollbar invisible */
+}
+
 body {
   margin: 0px;
   padding: 0px;
@@ -371,31 +378,6 @@ header .main-illustration img {
   }
 }
 
-#new-opportunities {
-  margin-top: 200px;
-  text-align: center;
-}
-
-#new-opportunities .about {
-  padding: 0 450px;
-  line-height: 1.5rem;
-}
-
-@media (max-width: 480px) {
-  #new-opportunities .about {
-    padding: 0 0;
-    margin-right: 22px;
-  }
-}
-
-@media (max-width: 480px) {
-  #new-opportunities {
-    text-align: left;
-    margin-top: 50px;
-    margin-left: 22px;
-  }
-}
-
 .plantain {
   position: absolute;
   top: 590px;
@@ -427,5 +409,76 @@ header .main-illustration img {
   .plantain img {
     height: 250px;
   }
+}
+
+#new-opportunities {
+  margin-top: 200px;
+  text-align: center;
+  font-size: 2rem;
+}
+
+#new-opportunities .about {
+  line-height: 3rem;
+  max-width: 40%;
+  font-size: 1.6rem;
+  margin: 0 auto;
+}
+
+@media (max-width: 480px) {
+  #new-opportunities .about {
+    margin-right: 22px;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  #new-opportunities {
+    text-align: left;
+    margin-top: 50px;
+    margin-left: 22px;
+  }
+}
+
+.benefit {
+  margin-top: 100px;
+}
+
+.benefit .benefit-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.benefit .benefit-card {
+  color: #333;
+  height: auto;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  max-width: 15%;
+  margin: 0 36px;
+  padding: 30px;
+  padding-bottom: 12px;
+}
+
+.benefit .benefit-card .title {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.benefit .benefit-card .icon {
+  height: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 /*# sourceMappingURL=styles.css.map */
