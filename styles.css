@@ -54,6 +54,7 @@ nav .mobile-bar {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    margin-right: 22px;
   }
 }
 
@@ -204,6 +205,7 @@ header .left-part p {
   header .left-part p {
     font-size: 1rem;
     line-height: 1.6rem;
+    margin-right: 22px;
   }
 }
 
@@ -260,6 +262,31 @@ header .main-illustration img {
     -webkit-box-pack: left;
         -ms-flex-pack: left;
             justify-content: left;
+  }
+}
+
+#new-opportunities {
+  margin-top: 200px;
+  text-align: center;
+}
+
+#new-opportunities .about {
+  padding: 0 450px;
+  line-height: 1.5rem;
+}
+
+@media (max-width: 480px) {
+  #new-opportunities .about {
+    padding: 0 0;
+    margin-right: 22px;
+  }
+}
+
+@media (max-width: 480px) {
+  #new-opportunities {
+    text-align: left;
+    margin-top: 50px;
+    margin-left: 22px;
   }
 }
 /*# sourceMappingURL=styles.css.map */

@@ -32,6 +32,7 @@ nav {
     flex-direction: column;
     @media (max-width: 480px) {
       display: flex;
+      margin-right: 22px;
     }
 
     span {
@@ -148,6 +149,7 @@ header {
       @media (max-width: 480px) {
         font-size: 1rem;
         line-height: 1.6rem;
+        margin-right: 22px;
       }
     }
     .cta {
@@ -187,5 +189,26 @@ header {
   @media (max-width: 480px) {
     margin-left: 20px;
     justify-content: left;
+  }
+}
+
+#new-opportunities {
+  margin-top: 200px;
+  text-align: center;
+
+  .about {
+    padding: 0 450px;
+    line-height: 1.5rem;
+
+    @media (max-width: 480px) {
+      padding: 0 0;
+      margin-right: 22px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    text-align: left;
+    margin-top: 50px;
+    margin-left: 22px;
   }
 }
