@@ -1,19 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Chivo:wght@400;700&display=swap");
 html {
-    
-    ::-webkit-scrollbar {
-      width: 0;  /* Remove scrollbar space */
-      background: transparent;  /* Optional: just make scrollbar invisible */
-    }
+  ::-webkit-scrollbar {
+    width: 0; /* Remove scrollbar space */
+    background: transparent; /* Optional: just make scrollbar invisible */
   }
-
+}
 
 body {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
   font-family: "Chivo", sans-serif;
-  
 }
 
 * {
@@ -274,11 +271,11 @@ header {
   top: 590px;
 
   @media (max-width: 768px) {
-  display: none;
+    display: none;
   }
 
   @media (max-width: 480px) {
-   display: none;
+    display: none;
   }
 
   img {
@@ -318,39 +315,40 @@ header {
   }
 }
 
-.benefit{
+.benefit {
   margin-top: 100px;
 
-.benefit-container{
-  display: flex;
-  justify-content: center;
-
-}
-
-.benefit-card{
-  color: #333;
-  height: auto;
-  width: fit-content;
-  max-width: 15%;
-  margin: 0 36px;
-  padding:30px ;
-  padding-bottom: 12px;
-
-  .title{
-    font-weight: bold;
-    font-size: 1.2rem;
+  .benefit-container {
+    display: flex;
+    justify-content: center;
   }
 
-  .icon{
-    height: 80px;
-    display: flex; 
+  .benefit-card {
+    color: #333;
+    height: auto;
+    width: fit-content;
+    max-width: 15%;
+    margin: 0 36px;
+    padding: 30px;
+    padding-bottom: 12px;
+    box-shadow: -1px 13px 20px #f0f2f4;
+    border-radius: 5px;
+
+    .title {
+      font-weight: bold;
+      font-size: 1.2rem;
+    }
+
+    .icon {
+      height: 80px;
+      display: flex;
       align-items: center;
-    justify-content: center;
-   }
- 
+      justify-content: center;
+    }
+
+    &:nth-child(2) {
+      background-color: #66bb6a;
+      color: #f2f2f2;
+    }
+  }
 }
-}
-
-
-
-
