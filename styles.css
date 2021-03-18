@@ -490,6 +490,10 @@ header .main-illustration img {
   font-size: 1.2rem;
 }
 
+.benefit .benefit-card .body {
+  line-height: 1.4rem;
+}
+
 .benefit .benefit-card .icon {
   height: 80px;
   display: -webkit-box;
