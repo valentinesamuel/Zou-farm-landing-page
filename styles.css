@@ -491,7 +491,7 @@ header .main-illustration img {
 }
 
 .benefit .benefit-card .body {
-  line-height: 1.4rem;
+  line-height: 1.5rem;
 }
 
 .benefit .benefit-card .icon {
@@ -525,6 +525,16 @@ header .main-illustration img {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+}
+
+hr {
+  margin: 90px 100px;
+}
+
+@media (max-width: 480px) {
+  hr {
+    margin: 10px 70px;
   }
 }
 /*# sourceMappingURL=styles.css.map */
