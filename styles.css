@@ -537,4 +537,26 @@ hr {
     margin: 10px 70px;
   }
 }
+
+.invest {
+  margin-left: 110px;
+}
+
+.invest h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  font-family: "Chivo", sans-serif;
+}
+
+.invest p {
+  max-width: 800px;
+  line-height: 3rem;
+  font-size: 1.6rem;
+}
+
+@media (max-width: 480px) {
+  .invest {
+    margin-left: 20px;
+  }
+}
 /*# sourceMappingURL=styles.css.map */
