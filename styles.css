@@ -539,7 +539,7 @@ hr {
 }
 
 .invest {
-  margin-left: 110px;
+  margin-left: 192px;
 }
 
 .invest h2 {
@@ -561,12 +561,71 @@ hr {
 }
 
 .terms {
-  background-color: red;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  color: white;
+  margin-left: 192px;
+  margin-top: 66px;
+}
+
+.terms .term {
+  padding: 30px 60px;
+  margin-right: 40px;
+  width: 30%;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(97, 118, 127, 0.0001)), to(#324148)), url("./images/short.png");
+  background-image: linear-gradient(180deg, rgba(97, 118, 127, 0.0001) 0%, #324148 100%), url("./images/short.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.terms .term:last-child {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(97, 118, 127, 0.0001)), to(#324148)), url("./images/long.png");
+  background-image: linear-gradient(180deg, rgba(97, 118, 127, 0.0001) 0%, #324148 100%), url("./images/long.png");
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-position: center;
+}
+
+.terms .term .perk {
+  color: #66bb6a;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-family: "Chivo", sans-serif;
+  letter-spacing: 3px;
+}
+
+.terms .term .underline {
+  height: 5px;
+  width: 20%;
+  background-color: white;
+}
+
+.terms .term h3 {
+  font-size: 2rem;
+  max-width: 50%;
+  line-height: 3rem;
+}
+
+.terms .term .invest-message {
+  max-width: 60%;
+  font-size: 1.2rem;
+  color: #e2efd2;
+  line-height: 2rem;
+  margin-bottom: 40px;
+}
+
+.terms .term button {
+  color: #66bb6a;
+  font-size: 1.2rem;
+  padding: 15px 30px;
+  border: none;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.terms .term button:focus {
+  outline: none;
 }
 /*# sourceMappingURL=styles.css.map */
