@@ -384,11 +384,11 @@ hr {
   margin-left: 110px;
 
   h2 {
-    font-size:2.5rem;
+    font-size: 2.5rem;
     font-weight: bold;
     font-family: "Chivo", sans-serif;
   }
-  p{
+  p {
     max-width: 800px;
     line-height: 3rem;
     font-size: 1.6rem;
@@ -397,4 +397,12 @@ hr {
   @media (max-width: 480px) {
     margin-left: 20px;
   }
+}
+
+.terms {
+  background-color: red;
+  display: flex;
+  justify-content: center;
+
+  
 }
