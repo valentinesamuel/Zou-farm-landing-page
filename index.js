@@ -11,4 +11,10 @@ function toggleMobileMenu() {
       document.querySelector('.mobile-bar').classList.toggle('active')
 }
 
-// arr = []
+//GETTING THE STRING FROM THE API
+const token = '#acessToken=mysupersecterkey&name=valentine&surname=samuel';
+// const slug = str.split('#').pop();
+const slug = token.substring(0, token.indexOf('&'));
+const newSlug = slug.split('=').pop()
+console.log(newSlug);
+console.log(token);
