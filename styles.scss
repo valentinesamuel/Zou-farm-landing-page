@@ -487,19 +487,63 @@ hr {
   }
 }
 
-.boxx {
-  width: 40%;
-  display: flex;
-  align-items: center;
-  .black {
-    background-color: red;
-    border-radius: 50%;
-    padding: 30px;
-    font-size: 1.2rem;
-    border: 2px solid white;
+.works {
+  color: white;
+  text-align: center;
+  background-color: red;
+  padding-top: 106px;
+
+  h1 {
+    font-size: 1.5rem;
   }
-  hr {
-    width: 100%;
-    margin: 0;
+  .instruction {
+    margin: 0 auto;
+    max-width: 30%;
+    font-size: 1.2rem;
+    margin-bottom: 50px;
+  }
+
+  .boxx {
+    width: 40%;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    .black {  
+      border-radius: 50%;
+      padding: 30px;
+      font-size: 1.2rem;
+      color: #ffffff;
+      border: 2px solid white;
+
+      &:first-child{
+        background-color: white;
+        color: #66bb6a;
+      }
+    }
+    hr {
+      width: 100%;
+      margin: 0;
+    }
+  }
+
+
+  .bottom-text-row {
+    display: flex;
+    justify-content: center;
+    h5 {
+      max-width: 9%;
+      text-align: left;
+      font-size: 1.3rem;
+      margin-top: 25px;
+    }
+
+    p {
+      margin-top: 25px;
+      text-align: left;
+      max-width: 20%;
+      font-size: 1.1rem;
+      color: white;
+      margin-left: 40px;
+    }
   }
 }

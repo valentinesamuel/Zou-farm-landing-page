@@ -654,26 +654,75 @@ hr {
   }
 }
 
-.boxx {
+.works {
+  color: white;
+  text-align: center;
+  background-color: red;
+  padding-top: 106px;
+}
+
+.works h1 {
+  font-size: 1.5rem;
+}
+
+.works .instruction {
+  margin: 0 auto;
+  max-width: 30%;
+  font-size: 1.2rem;
+  margin-bottom: 50px;
+}
+
+.works .boxx {
   width: 40%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin: 0 auto;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }
 
-.boxx .black {
-  background-color: red;
+.works .boxx .black {
   border-radius: 50%;
   padding: 30px;
   font-size: 1.2rem;
+  color: #ffffff;
   border: 2px solid white;
 }
 
-.boxx hr {
+.works .boxx .black:first-child {
+  background-color: white;
+  color: #66bb6a;
+}
+
+.works .boxx hr {
   width: 100%;
   margin: 0;
+}
+
+.works .bottom-text-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.works .bottom-text-row h5 {
+  max-width: 9%;
+  text-align: left;
+  font-size: 1.3rem;
+  margin-top: 25px;
+}
+
+.works .bottom-text-row p {
+  margin-top: 25px;
+  text-align: left;
+  max-width: 20%;
+  font-size: 1.1rem;
+  color: white;
+  margin-left: 40px;
 }
 /*# sourceMappingURL=styles.css.map */
