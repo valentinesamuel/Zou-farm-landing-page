@@ -657,7 +657,9 @@ hr {
 .works {
   color: white;
   text-align: center;
-  background-color: red;
+  background-color: #66bb6a;
+  width: auto;
+  margin: 192px;
   padding-top: 106px;
 }
 
@@ -667,7 +669,8 @@ hr {
 
 .works .instruction {
   margin: 0 auto;
-  max-width: 30%;
+  max-width: 50%;
+  line-height: 2rem;
   font-size: 1.2rem;
   margin-bottom: 50px;
 }
@@ -687,7 +690,7 @@ hr {
   border-radius: 50%;
   padding: 30px;
   font-size: 1.2rem;
-  color: #ffffff;
+  color: #cacaca;
   border: 2px solid white;
 }
 
@@ -708,19 +711,22 @@ hr {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  padding-bottom: 100px;
 }
 
 .works .bottom-text-row h5 {
-  max-width: 9%;
+  max-width: 15%;
   text-align: left;
   font-size: 1.3rem;
-  margin-top: 25px;
+  line-height: 2rem;
+  margin-top: 50px;
 }
 
 .works .bottom-text-row p {
-  margin-top: 25px;
+  margin-top: 50px;
   text-align: left;
-  max-width: 20%;
+  max-width: 30%;
+  line-height: 1.5rem;
   font-size: 1.1rem;
   color: white;
   margin-left: 40px;
