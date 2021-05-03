@@ -817,4 +817,65 @@ hr {
     margin-top: 20px;
   }
 }
+
+.comments .row {
+  margin-left: 192px;
+}
+
+.comments .row h2 {
+  position: relative;
+  top: 110px;
+  max-width: 300px;
+  line-height: 45px;
+}
+
+.testimonial .container {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 100px 192px  0 192px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.testimonial .container .test-card {
+  background-color: pink;
+  width: 400px;
+  padding: 30px;
+  border-radius: 5px;
+}
+
+.testimonial .container .test-card .identity {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1.3rem;
+}
+
+.testimonial .container .test-card .identity img {
+  height: 80px;
+  width: 80px;
+  margin-right: 30px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-color: #324148;
+  border-radius: 50%;
+}
+
+.testimonial .container .test-card .identity .name {
+  color: green;
+}
+
+.testimonial .container .test-card .identity h4 {
+  margin: 0px;
+  max-width: 250px;
+}
+
+.testimonial .container .test-card .testimony {
+  line-height: 1.5rem;
+}
 /*# sourceMappingURL=styles.css.map */

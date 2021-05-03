@@ -545,7 +545,8 @@ hr {
     }
     hr {
       width: 100%;
-      margin: 0;color: white;
+      margin: 0;
+      color: white;
       @media (max-width: 480px) {
         transform: rotate(90deg);
         width: 40px;
@@ -592,5 +593,58 @@ hr {
         margin-top: 20px;
       }
     }
+  }
+}
+
+.comments {
+  .row {
+    margin-left: 192px;
+    h2 {
+      position: relative;
+      top: 110px;
+      max-width: 300px;
+      line-height: 45px;
+    }
+  }
+}
+
+.testimonial {
+  .container {
+    justify-content: space-between;
+    margin:100px 192px  0 192px ;
+    
+display: flex;
+    .test-card {
+      background-color: pink;
+      width: 400px;
+      padding: 30px;
+      border-radius: 5px;
+      .identity {
+        display: flex;
+        align-items: center;
+        font-size: 1.3rem;
+
+        img {
+          height: 80px;
+          width: 80px;
+          margin-right: 30px;
+          object-fit: cover;
+          background-color: #324148;
+          border-radius: 50%;
+        }
+        .name {
+          color: green;
+        }
+        h4 {
+          margin: 0px;
+          max-width: 250px;
+        }
+
+      }
+      .testimony {
+        line-height: 1.5rem;
+      }
+    }
+
   }
 }
