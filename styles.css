@@ -846,8 +846,9 @@ hr {
 }
 
 .testimonial .container .test-card {
-  background-color: pink;
   width: 400px;
+  -webkit-box-shadow: -1px 13px 20px #F0F2F4;
+          box-shadow: -1px 13px 20px #F0F2F4;
   padding: 30px;
   border-radius: 5px;
 }
