@@ -900,4 +900,70 @@ hr {
     margin: 10px;
   }
 }
+
+.future {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.future .card {
+  margin-top: 200px;
+  background-color: white;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 77px 226px;
+  text-align: center;
+  -webkit-box-shadow: -1px 25px 20px #f2f2f2;
+          box-shadow: -1px 25px 20px #f2f2f2;
+  border-radius: 5px;
+}
+
+.future .card b {
+  color: #66bb6a;
+}
+
+.future .card .cta {
+  -webkit-filter: drop-shadow(0px 13px 20px rgba(118, 196, 125, 0.411204));
+          filter: drop-shadow(0px 13px 20px rgba(118, 196, 125, 0.411204));
+  color: white;
+  font-size: 18px;
+  padding: 8px 25px;
+  background-color: #66bb6a;
+  border: none;
+  border-radius: 5px;
+  -webkit-transition: ease-in 0.25s all;
+  transition: ease-in 0.25s all;
+}
+
+.future .card .cta:hover {
+  -webkit-transform: translateY(5px);
+          transform: translateY(5px);
+}
+
+.shortcuts .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 120px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.shortcuts .row .company {
+  margin: 0 100px;
+}
+
+.shortcuts .row .invest-col {
+  margin: 0 100px;
+}
+
+.shortcuts .row .legal {
+  margin: 0 100px;
+}
 /*# sourceMappingURL=styles.css.map */
