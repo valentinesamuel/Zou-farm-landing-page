@@ -718,7 +718,17 @@ hr {
       margin: 0 100px;
     }
   }
-
+  @media (max-width: 480px) {
+    .row{
+      flex-direction: column;
+    }
+    .company {
+      margin: 0;
+    }
+    .invest-col {
+      margin: 0;
+    }
+  }
 }
 
 footer {
