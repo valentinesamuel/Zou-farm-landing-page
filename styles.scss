@@ -621,7 +621,7 @@ hr {
     display: flex;
     .test-card {
       width: 400px;
-      box-shadow: -1px 13px 20px #F0F2F4;
+      box-shadow: -1px 13px 20px #f0f2f4;
       padding: 30px;
       border-radius: 5px;
       .identity {
@@ -693,33 +693,50 @@ hr {
       }
     }
   }
+  // @media (max-width: 480px) {
+  //   .card {
+  //     margin-top: 100px;
+  //     padding: 50px;
+  //   }
+  // }
 }
 
-.shortcuts{
-  .row{
+.shortcuts {
+  .row {
     display: flex;
     margin-top: 120px;
     justify-content: center;
+    text-align: center;
 
-    .company{
+    .company {
       margin: 0 100px;
     }
-    .invest-col{
+    .invest-col {
       margin: 0 100px;
-  
     }
-    .legal{
+    .legal {
       margin: 0 100px;
     }
   }
+  // @media (max-width: 480px) {
+  //   .row{
+  //     flex-direction: column;
+  //   }
+  //   .company {
+  //     margin: 0;
+  //   }
+  //   .invest-col {
+  //     margin: 0;
+  //   }
+  // }
 }
 
-footer{
+footer {
   display: flex;
   justify-content: center;
   align-items: center;
 
-  a{
+  a {
     text-decoration: none;
   }
 }

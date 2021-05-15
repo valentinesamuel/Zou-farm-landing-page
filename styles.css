@@ -847,8 +847,8 @@ hr {
 
 .testimonial .container .test-card {
   width: 400px;
-  -webkit-box-shadow: -1px 13px 20px #F0F2F4;
-          box-shadow: -1px 13px 20px #F0F2F4;
+  -webkit-box-shadow: -1px 13px 20px #f0f2f4;
+          box-shadow: -1px 13px 20px #f0f2f4;
   padding: 30px;
   border-radius: 5px;
 }
@@ -954,6 +954,7 @@ hr {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  text-align: center;
 }
 
 .shortcuts .row .company {
