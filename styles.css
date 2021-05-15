@@ -946,6 +946,13 @@ hr {
           transform: translateY(5px);
 }
 
+@media (max-width: 480px) {
+  .future .card {
+    margin-top: 100px;
+    padding: 50px;
+  }
+}
+
 .shortcuts .row {
   display: -webkit-box;
   display: -ms-flexbox;
